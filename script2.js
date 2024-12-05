@@ -7,8 +7,19 @@ function buttonClicked() {
 */
 
 // alert("Hello");
-console.log(1);
-console.log(2);
-// document.getElementById("content");
 
-// function na(){}
+let age = 25;
+let year = 2024;
+console.log(age, year);
+
+age = 27
+console.log(age);
+
+const dd = 111;
+console.log(dd);
+
+var ss = 12;
+console.log(ss);
+
+
+// document.getElementById("content");
