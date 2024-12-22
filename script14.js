@@ -1,39 +1,28 @@
-// Swtich Stmt
+// Func. Decl.
 
-/*
-const gr = 'E';
-switch(gr){
-    case 'B':
-        console.log('Wrong attempt');
-        break;
-    case 'C':
-        console.log('Wrong attempt');
-        break;
-    case 'A':
-        console.log('Voila got it');
-        break;
-    case 'D':
-        console.log('Wrong attempt');
-        break;
-    default:
-        console.log('not found');
-}
+// function gg(){
+// console.log(" nixk here");
+// }
 
-*/
 
-// var & block scope;
+// Func. Decl.
 
-const a=1;
+// function gg1(nm){
+//     console.log(`good day ${nm}`);
+//     }
 
-if(true){
-    const a=33;
-    const n='nixk';
-    console.log('inside',a,n);
+// Func. expr.
 
-    if(true){
-    const a=66;
-    console.log('inside 2nd block',a);
-    }
-}
+// Func. param
+const ss = function(nm){
+    // console.log('Jack here');
+    console.log(`good day ${nm}`);
+};
 
-console.log('outside',a);
+// gg();
+// gg();
+
+// gg1(nm='nj');
+
+ss('Jack');
+// arg is passed;
