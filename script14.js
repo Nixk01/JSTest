@@ -14,9 +14,9 @@
 // Func. expr.
 
 // Func. param
-const ss = function(nm){
+const ss = function(nm='NJ',tm='Subah'){
     // console.log('Jack here');
-    console.log(`good day ${nm}`);
+    console.log(`good ${tm} ${nm} `);
 };
 
 // gg();
@@ -24,5 +24,7 @@ const ss = function(nm){
 
 // gg1(nm='nj');
 
-ss('Jack');
+// ss('Jack', 'Morning');
+
+ss();
 // arg is passed;
